@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LearnRuby</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= stylesheet_link_tag    "layout", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= javascript_include_tag "jquery-1.4.1.min" %>
+  <%= javascript_include_tag "jquery.slidepanel.setup" %>
+  <%= javascript_include_tag "jquery-ui-1.7.2.custom.min" %>
+  <%= javascript_include_tag "jquery.tabs.setup" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
